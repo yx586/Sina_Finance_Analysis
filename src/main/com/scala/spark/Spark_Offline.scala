@@ -5,7 +5,7 @@ import org.apache.spark.sql.{Encoders, SQLContext, SparkSession}
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql.functions._
 
-object Spark_Test {
+object Spark_Offline {
   def main (args: Array[String]): Unit = {
     //spark基础配置
     val conf = new SparkConf().setAppName("Spark SQL basic example").setMaster("local[4]")
@@ -32,11 +32,11 @@ object Spark_Test {
     //    ds.printSchema()
 
     //批量json处理
-    val ds1 = ds.withColumn("finance",from_json($"value",finance_analy_schema)).selectExpr("finance.data")
-    val ds2 = ds1.selectExpr("explode(data) finance").selectExpr("finance.*")
-    ds2.printSchema()
-    //数据清洗之后保存为parquet文件
-    ds2.repartition(1).write.format("parquet").save("D:\\tmp\\analysis\\result.parquet")
+    val finance_analy_ds = ds.withColumn("finance",from_json($"value",finance_analy_schema)).selectExpr("finance.data")
+    val data_ds = finance_analy_ds.selectExpr("explode(data) finance").selectExpr("finance.*")
+    data_ds.printSchema()
+
+    data_ds.repartition(1).write.format("parquet").save("D:\\tmp\\analysis\\result.parquet")
 
   }
 }
