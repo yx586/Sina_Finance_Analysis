@@ -11,11 +11,11 @@ public class SimpleProducer {
     public static void main(String[] args) throws Exception {
 
         //Assign topicName to string variable
-        sendMessage();
+        sendMessage("Hello World!");
 
     }
 
-    public static void sendMessage() throws Exception {
+    public static void sendMessage(String value) throws Exception {
         String topic = "test01";
 
         // create instance for properties to access producer configs
@@ -44,7 +44,6 @@ public class SimpleProducer {
         Producer<String, String> producer = new KafkaProducer<String, String>(props);
 
         String key = "key";
-        String value = "Hello World!杨鑫";
 
         for (int i = 0; i < 1; i++) {
 
