@@ -44,7 +44,6 @@
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-streaming_2.11</artifactId>
       <version>${spark.version}</version>
-      <scope>provided</scope>
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-hive -->
@@ -52,7 +51,6 @@
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-hive_2.11</artifactId>
       <version>${spark.version}</version>
-      <scope>provided</scope>
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-streaming-kafka-0-10 -->
@@ -67,7 +65,6 @@
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-sql-kafka-0-10_2.11</artifactId>
       <version>${spark.version}</version>
-      <scope>provided</scope>
     </dependency>
 
     <dependency>
