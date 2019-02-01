@@ -120,7 +120,6 @@
       <version>0.10.2.1</version>
     </dependency>
 
-
     <!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients -->
     <dependency>
       <groupId>org.apache.kafka</groupId>
@@ -128,7 +127,26 @@
       <version>0.10.2.1</version>
     </dependency>
 
+      <!-- https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch -->
+      <dependency>
+          <groupId>org.elasticsearch</groupId>
+          <artifactId>elasticsearch</artifactId>
+          <version>5.3.3</version>
+      </dependency>
 
+      <!-- https://mvnrepository.com/artifact/org.elasticsearch.client/transport -->
+      <dependency>
+          <groupId>org.elasticsearch.client</groupId>
+          <artifactId>transport</artifactId>
+          <version>5.3.3</version>
+      </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch-spark-20 -->
+    <dependency>
+      <groupId>org.elasticsearch</groupId>
+      <artifactId>elasticsearch-spark-20_2.11</artifactId>
+      <version>6.2.1</version>
+    </dependency>
 
 
   </dependencies>
