@@ -1,5 +1,6 @@
 package com.scala.spark
 
+import com.java.utils.DateUtil
 import com.scala.caseclass.{finance, finance_analysis}
 import org.apache.spark.sql.{Encoders, SQLContext, SparkSession}
 import org.apache.spark.{SparkConf, SparkContext}
@@ -33,10 +34,11 @@ object Spark_Offline {
 
     //批量json处理
     val finance_analy_ds = ds.withColumn("finance",from_json($"value",finance_analy_schema)).selectExpr("finance.data")
-    val data_ds = finance_analy_ds.selectExpr("explode(data) finance").selectExpr("finance.*")
+    val data_ds = finance_analy_ds.selectExpr("explode(data) finance").selectExpr("finance.*","current_timestamp as time")
     data_ds.printSchema()
-
-    data_ds.repartition(1).write.format("parquet").save("D:\\tmp\\analysis\\result.parquet")
+    val finance_analysis_ds = data_ds.as[finance_analysis]
+    finance_analysis_ds.show(10,false)
+//    data_ds.repartition(1).write.format("parquet").save("D:\\tmp\\analysis\\result.parquet")
 
   }
 }
