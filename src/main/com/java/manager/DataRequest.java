@@ -13,6 +13,7 @@ import java.util.concurrent.*;
 import static com.java.consts.Constant.CHARSET_GBK;
 import static com.java.consts.Constant.ONE_PAGE;
 import static com.java.consts.Constant.SINA_MAGIC_PATTERN_URL;
+import static com.java.kafka.SimpleProducer.sendMessage;
 
 public class DataRequest {
 
@@ -58,7 +59,7 @@ public class DataRequest {
                 String response = HttpRequestUtil.get(url, charset);
                 JSON result_json = JSON.parseObject(response.replace(Constant.HEAD_PREFIX, "").replace(Constant.TAIL_PREFIX, ""));
                 String result = result_json.toString();
-                File_Write_Load.saveDataToFile("20190130" + num, result);
+                sendMessage(result);
             } catch (Exception e) {
                 flag = false;
             } finally {
