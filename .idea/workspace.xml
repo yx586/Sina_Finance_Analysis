@@ -3,13 +3,36 @@
   <component name="ChangeListManager">
     <list default="true" id="58d376a4-cd89-4919-a0b4-00577e30b1f7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/finance_analysis.iml" afterPath="$PROJECT_DIR$/finance_analysis.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/scala/spark/Spark_Streaming.scala" afterPath="$PROJECT_DIR$/src/main/com/scala/spark/Spark_Streaming.scala" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scala/spark/Spark_Test$$typecreator1$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scala/spark/Spark_Test$$typecreator2$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scala/spark/Spark_Test$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scala/spark/Spark_Test.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/consts/Constant.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/job/Job.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/kafka/SimpleConsumer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/kafka/SimpleProducer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/manager/DataRequest$RequestRunnable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/manager/DataRequest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/test/test_request.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/utils/DateUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/utils/File_Write_Load.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/utils/HttpRequestUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/utils/Log.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/utils/StrUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scala/caseclass/finance$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scala/caseclass/finance.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scala/caseclass/finance_analysis$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scala/caseclass/finance_analysis.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scala/spark/Spark_Offline$$typecreator1$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scala/spark/Spark_Offline$$typecreator2$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scala/spark/Spark_Offline$$typecreator6$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scala/spark/Spark_Offline$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scala/spark/Spark_Offline.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kafka/Consumer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spark/Spark_Streaming$$anonfun$main$1$$anonfun$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spark/Spark_Streaming$$anonfun$main$1$$typecreator11$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spark/Spark_Streaming$$anonfun$main$1$$typecreator7$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spark/Spark_Streaming$$anonfun$main$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spark/Spark_Streaming$$typecreator1$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spark/Spark_Streaming$$typecreator2$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spark/Spark_Streaming$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spark/Spark_Streaming.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/com/java/manager/DataRequest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-171">
-              <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+              <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -59,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/com/scala/spark/Spark_Streaming.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="77">
-              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="e#15#45#0" expanded="true" />
               </folding>
@@ -71,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/com/scala/spark/Spark_Offline.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-212">
-              <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+              <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
               <folding>
                 <element signature="e#25#55#0" expanded="true" />
               </folding>
@@ -93,7 +116,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/com/java/test/test_request.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -103,7 +126,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/com/java/utils/DateUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="162" column="5" lean-forward="true" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="5" />
+              <caret line="162" column="5" lean-forward="false" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -618,7 +641,7 @@
       <option name="presentableId" value="Default" />
       <updated>1548811920604</updated>
       <workItem from="1548811925233" duration="31723000" />
-      <workItem from="1548914596660" duration="16802000" />
+      <workItem from="1548914596660" duration="17026000" />
     </task>
     <task id="LOCAL-00001" summary="all commit 20190131">
       <created>1548914756135</created>
@@ -694,11 +717,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48525000" />
+    <option name="totallyTimeSpent" value="48749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="407" y="0" width="1668" height="1025" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -715,7 +737,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -991,7 +1013,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/com/java/test/test_request.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1018,7 +1040,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/com/java/manager/DataRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-171">
-          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1026,7 +1048,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/com/java/utils/DateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="162" column="5" lean-forward="true" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="5" />
+          <caret line="162" column="5" lean-forward="false" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1034,7 +1056,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/com/scala/spark/Spark_Offline.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-212">
-          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
           <folding>
             <element signature="e#25#55#0" expanded="true" />
           </folding>
@@ -1044,7 +1066,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/com/scala/spark/Spark_Streaming.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="e#15#45#0" expanded="true" />
           </folding>
