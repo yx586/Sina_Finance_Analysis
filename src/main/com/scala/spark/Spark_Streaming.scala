@@ -17,7 +17,7 @@ object Spark_Streaming {
     val BOOT_SERVER = bootServer
     val TOPIC = topic
     val GID = groupId
-    val APP_NAME = "Spark Streaming Finance Analysis"
+    val APP_NAME = "SparkStreaming_FinanceAnalysis"
 
     val sparkConf = new SparkConf()
       .setMaster("local[4]")
@@ -52,10 +52,9 @@ object Spark_Streaming {
         val ds = rdd.map(record => (record.key(),record.value())).toDS()
         if(ds.count() > 0){
 
-          val finance_analy_ds = ds.withColumn("finance",from_json($"value",finance_analy_schema)).selectExpr("finance.data")
-          val data_ds = finance_analy_ds.selectExpr("explode(data) finance").selectExpr("finance.*")
-
-          data_ds.show(10,false)
+          val finance_analy_ds = ds.withColumn("finance",from_json($"_2",finance_analy_schema)).selectExpr("finance.data")
+          val data_ds = finance_analy_ds.selectExpr("explode(data) finance").selectExpr("finance.*","current_timestamp as time")
+          val finance_analysis_result = data_ds.as[finance_analysis]
 
         }else{
           ds.unpersist()
@@ -68,6 +67,9 @@ object Spark_Streaming {
 
       }
     }
+
+    ssc.start()
+    ssc.awaitTermination()
 
   }
 
